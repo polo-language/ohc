@@ -27,7 +27,7 @@ final class UnsExt7 extends UnsExt
     long getAndPutLong(long address, long offset, long value)
     {
         long r = unsafe.getLong(null, address + offset);
-        unsafe.putLong(null, address + offset, value);
+        unsafe.putLong(address + offset, value);
         return r;
     }
 

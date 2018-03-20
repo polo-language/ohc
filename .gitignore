@@ -7,3 +7,7 @@ target
 hs_err_*.log
 
 batch-bench
+
+**/.classpath
+**/.project
+**/.settings
